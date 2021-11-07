@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javier Gómez Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.jpeg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburguer"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction-->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title_intro">
+            <strong>Staking DApp</strong>
+            </h1>
+            <p class="section__subtitle_intro">Solidity & Javascript</p>
+            <img src="img/portfolio1.png" alt="" class="intro__image">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>In this project, I've build a decentralized application on the Ethereum blockchain, that enables users stake their DAI tokens, in order to get a reward of Dapp tokens. You can see how the front end looks like in the following picture:</p>
+            <img src="img/portfolio-details.png" alt="">
+            <p>For this project, the dependencies needed, are: Node.js, ganache and truffle.</p>
+            <p>You can check the project <a href="https://github.com/javiergomezmiravet/eth-dapp">here</a></p>
+            <p>This project only runs locally.</p>
+        </div>
+
+        
+        
+        <!-- Footer -->
+
+        <footer class="footer2">
+            <a href="mailto::javigomir@gmail.com" class="footer__link">javigomir@gmail.com</a>
+            <ul class="social-list">
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/javiergomezmiravet">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
